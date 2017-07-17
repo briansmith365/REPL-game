@@ -115,23 +115,23 @@ name = gets.chomp.downcase.capitalize!
 puts "Great to meet you #{name}, do you feel like hanging out today? (Y or N)"
 ready = gets.chomp.downcase
 if ready.include?('y')
-  puts "Ok great! But wait, this is a two player game, so call a friend. Hit ENTER when you are ready!"
+  puts "Ok great! But wait, this is a two player game, so call a dog. Hit ENTER when you are ready!"
   gets
 else
   puts "To bad you're going to play anyway."
   puts thumbs_up
 end
 
-puts "Whats your friend's name?"
-friend_name = gets.chomp.downcase.capitalize!
+puts "Whats your dog's name?"
+dog_name = gets.chomp.downcase.capitalize!
 
-puts "Ok #{name} and #{friend_name}, we are going to hang today with a game of good ol' fashioned Hangman! The instructions are simple but first #{name} needs to get some shut eye and not peek at the screen. The following instructions are for #{friend_name} eyes only!. When you are ready, press ENTER!"
+puts "Ok #{name} and #{dog_name}, we are going to hang today with a game of good ol' fashioned Hangman! The instructions are simple but first #{name} needs to get some shut eye and not peek at the screen. The following instructions are for #{dog_name} eyes only!. When you are ready, press ENTER!"
 check_one = gets
 
 puts "No peeking #{name}!"
 check_two = gets
 
-puts "#{friend_name} you are going to come up with a sentence that #{name} is going to try and figure out without getting hanged. #{name} is allowed 6 mistakes to prove that he can hang! So go ahead #{friend_name} lets see if #{name} can hang with you!"
+puts "#{dog_name} you are going to come up with a sentence that #{name} is going to try and figure out without getting hanged. #{name} is allowed 6 mistakes to prove that he can hang! So go ahead #{dog_name} lets see if #{name} can hang with you!"
 puts "Enter a word: "
 words = gets.chomp.downcase
 system "clear"
