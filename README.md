@@ -6,3 +6,4 @@ Instructions
 
 *************************************
 The game is about playing the hang-man game with your dog. It is a great concept and the instructions are above. Enjoy!!!
+its a REPL game
